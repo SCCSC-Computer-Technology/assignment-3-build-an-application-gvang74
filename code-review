@@ -1,0 +1,3 @@
+The form loads after the use of the Export (I think you meant Import) button. The use of tool tips may have made this button's purpose more clear to users. It would be helpful for the code to be commented more to understand the purpose of the coding at a glance. 
+The combo box has not been coded at all so it may have been better to just not inclue that control on the form. Form two and three seem to be unused so maybe those should have been deleted as well. 
+**I know you had a difficult time with this application and I commend you for turning in the parts that you could get working
