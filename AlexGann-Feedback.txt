@@ -1,0 +1,25 @@
+Initially, I was unsure which branch I was supposed to use.
+
+Patch-2 is in a completely broken state. I was unable to even view the form's UI design, much less run it.
+In light of this, this review is based on patch-1.
+
+The form loads, but requires pressing the 'Export' button and manually selecting the included States excel
+sheet to load. This is fine, but that's not what Export means. The button should be labeled Import. It took me
+reading through the code to get this right, because there are no comments in the code or explanation on the
+form itself. That said, I have no complaints about the manual import. It works, and is likely more reliable than
+an automatic approach.
+
+I am unsure what library the user created, if any. If the library for interacting with Excel files is not the
+user's, it does at least look interesting, and I would like to learn more about it in my free time.
+
+The search function is interesting. The label explaining how to use it was enough for me to understand, but it
+could afford to be more verbose, because I'm not entirely sure if less savvy users could comprehend it.
+
+The combo box has not been set up at all. It might have been nice as a drop-down menu of states.
+
+There's no explanation for what the 'OverallWorkforce' or 'JobPosting' columns represent. There are multiple ways
+to potentially interpret the numbers given.
+
+There is an unused method in Form1's code and a completely unused Form3. Form2 also seems to be unused despite having
+code, since it isn't called from Form1. I also feel like, in place of or supplementary to comments, more verbose naming
+conventions could have been used.
